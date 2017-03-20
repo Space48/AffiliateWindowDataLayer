@@ -58,8 +58,6 @@ class OrderSuccess extends Template {
         \Magento\Cookie\Helper\Cookie $cookieHelper,
         \Magento\Framework\Json\Helper\Data $jsonHelper,
         \Magento\Framework\Registry $registry,
-        \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $productCollectionFactory,
-        \Magento\Catalog\Model\ResourceModel\Category\CollectionFactory $categoryCollectionFactory,
         GtmHelper $gtmHelper,
         AwinHelper $awinHelper,
         array $data = []
@@ -68,8 +66,6 @@ class OrderSuccess extends Template {
         $this->cookieHelper = $cookieHelper;
         $this->jsonHelper = $jsonHelper;
         $this->registry = $registry;
-        $this->productCollectionFactory = $productCollectionFactory;
-        $this->categoryCollectionFactory = $categoryCollectionFactory;
         $this->gtmHelper = $gtmHelper;
         $this->awinHelper = $awinHelper;
 
