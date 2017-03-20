@@ -1,0 +1,10 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <s48_gtm_datalayer>
+            <affiliate_window>
+                <active>1</active>
+                <test_mode>1</test_mode>
+            </affiliate_window>
+        </s48_gtm_datalayer>
+    </default>
+</config>
