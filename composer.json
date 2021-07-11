@@ -6,6 +6,11 @@
         "magento/framework": "^100.1.0|^101.0.0|^102.0.0|^103.0.0",
         "space48/gtmdatalayer": "^1.0.0"
     },
+      "require-dev": {
+    "magento/marketplace-eqp": "~1.0.5",
+    "magento-ecg/coding-standard": "2.*",
+    "phpunit/phpunit": "4.1.0"
+  },
     "type": "magento2-module",
     "version": "1.0.4",
     "license": [
@@ -25,6 +30,12 @@
         "files": [
             "registration.php"
         ],
+          "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
         "psr-4": {
             "Space48\\AffiliateWindowDataLayer\\": ""
         }
